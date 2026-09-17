@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>אסנת שי - נטורופתית אירידיולוגית ורפלקסולוגית בכירה</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #faf7f5;
+            color: #3d3531;
+            direction: rtl;
+            line-height: 1.6;
+        }
+
+        /* תמונת הרקע העליונה - קישור ישיר מ-Google Drive */
+        .header-bg {
+            width: 100%;
+            height: 240px;
+            background-image: url('https://lh3.googleusercontent.com/d/1xkNKnuB3XisiEaQefsw9PSbVW0w2mAqP');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(to bottom, rgba(53, 30, 41, 0.05), rgba(250, 247, 245, 0.8));
+        }
+
+        .container {
+            padding: 0 20px 40px 20px;
+            max-width: 600px;
+            margin: -50px auto 0 auto;
+            position: relative;
+        }
+
+        .profile-card {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 25px 20px;
+            box-shadow: 0 10px 25px rgba(160, 120, 130, 0.12);
+            border: 1px solid #f0e6e2;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .tagline {
+            display: inline-block;
+            background: #f4ece8;
+            color: #8c5364;
+            padding: 5px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        h1 {
+            color: #5a2a38;
+            margin: 5px 0;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            color: #8c5364;
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .main-desc {
+            font-size: 14.5px;
+            color: #554d4a;
+            border-top: 1px solid #f5ede9;
+            padding-top: 15px;
+            margin-top: 10px;
+        }
+
+        .section-title {
+            color: #5a2a38;
+            font-size: 18px;
+            font-weight: 700;
+            margin: 25px 0 15px 0;
+            padding-right: 10px;
+            border-right: 4px solid #b87a8b;
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 16px;
+            border-radius: 14px;
+            border: 1px solid #f0e6e2;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+        }
+
+        .card h3 {
+            margin: 0 0 6px 0;
+            font-size: 15px;
+            color: #8c5364;
+        }
+
+        .card p {
+            margin: 0;
+            font-size: 13.5px;
+            color: #665c58;
+        }
+
+        .approach-box {
+            background: #ffffff;
+            border-radius: 14px;
+            padding: 20px;
+            border: 1px solid #f0e6e2;
+            margin-bottom: 25px;
+        }
+
+        .approach-box p {
+            font-size: 14px;
+            color: #554d4a;
+            margin-bottom: 12px;
+        }
+
+        .approach-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        .highlight-badge {
+            color: #8c5364;
+            font-weight: bold;
+        }
+
+        .about-card {
+            background: #f7ede9;
+            border-radius: 16px;
+            padding: 22px;
+            text-align: center;
+            border: 1px solid #ebdad3;
+            margin-bottom: 25px;
+        }
+
+        .about-card p {
+            margin: 0 0 16px 0;
+            font-size: 14.5px;
+            color: #4a3e3a;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #8c5364;
+            color: #ffffff !important;
+            text-decoration: none;
+            padding: 14px 32px;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 15px;
+            box-shadow: 0 4px 12px rgba(140, 83, 100, 0.3);
+        }
+
+        .contact-info {
+            margin-top: 15px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .phone-link {
+            color: #8c5364;
+            text-decoration: none;
+            display: inline-block;
+            direction: ltr;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 12.5px;
+            color: #998c87;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-bg">
+        <div class="overlay"></div>
+    </div>
+
+    <div class="container">
+        
+        <div class="profile-card">
+            <span class="tagline">רפואה טבעית • טיפול מהשורש</span>
+            <h1>אסנת שי</h1>
+            <div class="subtitle">נטורופתית, אירידיולוגית ורפלקסולוגית בכירה</div>
+            <div class="main-desc">
+                אבחון אירידיולוגי מדויק יחד עם התאמת תזונה אישית לטיפול מהשורש. הטיפול מותאם אישית על פי אורח החיים שלכם.
+            </div>
+        </div>
+
+        <div class="section-title">תחומי טיפול עיקריים</div>
+        
+        <div class="cards-grid">
+            <div class="card">
+                <h3>🌱 עיכול ותזונה</h3>
+                <p>טיפול בבעיות עיכול, הרזיה בריאה ותזונת ילדים מותאמת.</p>
+            </div>
+            <div class="card">
+                <h3>⚖️ איזון ומערכות</h3>
+                <p>איזון סוכרת, בעיות כלי דם וטיפול בבעיות נשימה.</p>
+            </div>
+            <div class="card" style="grid-column: 1 / -1;">
+                <h3>✨ בריאות העור</h3>
+                <p>מענה טבעי, מקיף ועדין לבעיות עור שונות דרך התזונה והגוף.</p>
+            </div>
+        </div>
+
+        <div class="section-title">הגישה הטיפולית</div>
+        <div class="approach-box">
+            <p>
+                <span class="highlight-badge">ללא שינויים קיצוניים:</span> הטיפול מותאם אישית לקצב ולאורח החיים שלך. ברוב המקרים אין צורך בשינויים דרמטיים כדי להגיע לתוצאות מצוינות.
+            </p>
+            <p>
+                <span class="highlight-badge">תוצאות שמורגשות מהר:</span> כבר לאחר מפגש או סדרת מפגשים קצרה תרגישו את השינוי בבריאותכם, ותקבלו ידע וכלים מעשיים שתרצו להתמיד בהם.
+            </p>
+        </div>
+
+        <div class="about-card">
+            <p><strong>יחס אישי ואכפתיות בגובה העיניים</strong></p>
+            <p>אסנת, נטורופתית ואירידיולוגית ברעננה, ידועה באיכפתיות הגדולה, בתשומת הלב וביחס האישי לכל מטופל ומטופלת.</p>
+            <a href="http://a-tivit.com/" target="_blank" class="btn">לביקור באתר לקריאת המלצות 🌐</a>
+            
+            <div class="contact-info">
+                📞 ליצירת קשר ותיאום: <a href="tel:0584992020" class="phone-link">058-4992020</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            אסנת שי | רעננה | <a href="http://a-tivit.com/" target="_blank" style="color: #8c5364; text-decoration: none;">www.a-tivit.com</a> | <a href="tel:0584992020" style="color: #8c5364; text-decoration: none;">058-4992020</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
